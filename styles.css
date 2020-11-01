@@ -1,0 +1,171 @@
+body{
+	display: flex;
+	flex-direction: column;
+	width:700px;
+	height:750px;
+	padding:0;
+	margin:0;
+	
+}
+a{
+	display: flex;
+	text-decoration: none;
+}
+p{
+	margin:0;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+.block1{
+	display: flex;
+	width:700px;
+	height: 75px;
+	background-color: #6633FF;
+}
+.head{
+	display: flex;
+	width: 250px;
+}
+.header{
+	font-family: Comic Sans MS;
+	font-size: 17px;
+	color:#fff;
+	margin-top: 25px;
+}
+.img{
+	display: flex;
+	height:50px;
+	width:75px;
+	background-color:#fff;
+	margin: 10px 20px 15px 20px;
+}
+.m_1{
+	display: flex;
+	flex-direction: row;
+	width: 450px;
+	justify-content: flex-end;
+}
+.list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 5px;
+}
+.top_list{
+	display: inline-flex;
+}
+.t1,.t2,.t3{
+	text-decoration: none;
+	font-size: 12px;
+	color:#fff;
+	padding: 10px 20px 10px 20px;
+}
+.menu{
+	display: flex;
+	width:700px;
+	height: 35px;
+	background-color: #BDBDF7;
+}
+.list2{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 15px 0 10px 20px;
+}
+.a1,.a2,.a3,.a4,.a5{
+	font-size:14px;
+	color:#000;
+	margin: 0 2px 0 2px;
+	text-decoration: none;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	width:660px;
+	padding: 30px 20px 25px 20px;
+	background-color:#EEEEEE;
+}
+.main_1{
+	display: flex;
+	flex-direction: column;
+	width: 465px;
+}
+.cont_1{
+	display: flex;
+	flex-direction: row;
+}
+.line{
+	display: flex;
+	font-size: 24px;
+	padding-bottom: 5px;
+	border-bottom: 15px solid #6633FF;
+}
+.main_text{
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+.ul1{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+.ul2{
+	padding-left: 25px;
+}
+.menu_2{
+	display: flex;
+	margin-top: 32px;
+	padding-left: 10px;
+	width: 195px;
+	height: 300px;
+	background-color:#CCCCFF;
+}
+.m_2{
+	display: flex;
+	padding: 10px 10px 10px 10px;
+	color: #000;
+}
+.cont_2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+.block3,.block4,.block5{
+	display: flex;
+	width:200px;
+	height:160px;
+	background-color:#CCCCFF;
+}
+.tb{
+	text-align:center;
+	padding: 40px 0px 40px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	width:700px;
+	height: 70px;
+	background-color:#6633FF;
+}
+.sym{
+	display: flex;
+	color:#000;
+	margin-left: 20px;
+	font-size:18px;
+	z-index:3;
+}
+.tf{
+	display: flex;
+	margin-left: 5px;
+	color:#fff;
+}
